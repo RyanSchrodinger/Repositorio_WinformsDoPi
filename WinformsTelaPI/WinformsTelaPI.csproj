@@ -81,13 +81,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Logo Devaryon Vetorizado.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Logo Devaryon Vetorizado1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\music-station-vetorizada 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music-station-vetorizada 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persOn %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\padlock.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
