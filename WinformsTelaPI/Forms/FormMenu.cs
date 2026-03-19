@@ -30,6 +30,16 @@ namespace WinformsTelaPI.Forms
             this.Close();
         }
 
-        
+        private void btnGestaoPessoas_Click(object sender, EventArgs e)
+        {
+            var tela = new FormGestaoDePessoas();
+            tela.ShowDialog();
+
+        }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
