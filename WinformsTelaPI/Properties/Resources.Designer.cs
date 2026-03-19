@@ -63,6 +63,16 @@ namespace WinformsTelaPI.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logout {
+            get {
+                object obj = ResourceManager.GetObject("logout", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap music_station_vetorizada_1 {
             get {
                 object obj = ResourceManager.GetObject("music-station-vetorizada 1", resourceCulture);
@@ -96,6 +106,16 @@ namespace WinformsTelaPI.Properties {
         internal static System.Drawing.Bitmap persOn__2_ {
             get {
                 object obj = ResourceManager.GetObject("persOn (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pessoas {
+            get {
+                object obj = ResourceManager.GetObject("Pessoas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

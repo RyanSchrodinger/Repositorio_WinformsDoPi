@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinformsTelaPI.Forms;
 
 namespace WinformsTelaPI
 {
@@ -59,6 +60,12 @@ namespace WinformsTelaPI
                 txtSenha.Text = "Digite seu login...";
                 txtSenha.ForeColor = Color.Gray;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var tela = new FormMenu();
+            tela.ShowDialog();
         }
     }
 }
