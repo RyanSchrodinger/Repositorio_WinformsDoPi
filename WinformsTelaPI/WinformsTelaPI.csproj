@@ -52,10 +52,10 @@
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormGestaoDePessoas.cs">
+    <Compile Include="Forms\Gestao de Usuarios\FormGestaoDePessoas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormGestaoDePessoas.Designer.cs">
+    <Compile Include="Forms\Gestao de Usuarios\FormGestaoDePessoas.Designer.cs">
       <DependentUpon>FormGestaoDePessoas.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormMenu.cs">
@@ -64,10 +64,10 @@
     <Compile Include="Forms\FormMenu.Designer.cs">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormUsuarioInformacao.cs">
+    <Compile Include="Forms\Gestao de Usuarios\FormUsuarioInformacao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormUsuarioInformacao.Designer.cs">
+    <Compile Include="Forms\Gestao de Usuarios\FormUsuarioInformacao.Designer.cs">
       <DependentUpon>FormUsuarioInformacao.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -75,13 +75,13 @@
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormGestaoDePessoas.resx">
+    <EmbeddedResource Include="Forms\Gestao de Usuarios\FormGestaoDePessoas.resx">
       <DependentUpon>FormGestaoDePessoas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormUsuarioInformacao.resx">
+    <EmbeddedResource Include="Forms\Gestao de Usuarios\FormUsuarioInformacao.resx">
       <DependentUpon>FormUsuarioInformacao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -155,5 +155,6 @@
   <ItemGroup>
     <None Include="Resources\add.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

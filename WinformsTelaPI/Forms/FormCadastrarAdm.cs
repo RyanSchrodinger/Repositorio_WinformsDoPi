@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinformsTelaPI.Forms
+namespace WinformsTelaPI.Forms.Gestao_de_Usuarios
 {
-    public partial class FormUsuarioInformacao : Form
+    public partial class FormCadastrarAdm : Form
     {
-        public FormUsuarioInformacao()
+        public FormCadastrarAdm()
         {
             InitializeComponent();
         }
