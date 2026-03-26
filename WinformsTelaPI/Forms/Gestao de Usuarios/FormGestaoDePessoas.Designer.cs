@@ -69,7 +69,7 @@
             this.panelPri.Location = new System.Drawing.Point(0, 0);
             this.panelPri.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelPri.Name = "panelPri";
-            this.panelPri.Size = new System.Drawing.Size(1417, 775);
+            this.panelPri.Size = new System.Drawing.Size(1417, 809);
             this.panelPri.TabIndex = 27;
             // 
             // panel3
@@ -103,7 +103,7 @@
             this.panelFilho.Location = new System.Drawing.Point(415, 61);
             this.panelFilho.Margin = new System.Windows.Forms.Padding(4);
             this.panelFilho.Name = "panelFilho";
-            this.panelFilho.Size = new System.Drawing.Size(988, 694);
+            this.panelFilho.Size = new System.Drawing.Size(988, 733);
             this.panelFilho.TabIndex = 31;
             // 
             // panel2
@@ -382,7 +382,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(46)))));
-            this.ClientSize = new System.Drawing.Size(1417, 775);
+            this.ClientSize = new System.Drawing.Size(1417, 809);
             this.Controls.Add(this.panelPri);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);

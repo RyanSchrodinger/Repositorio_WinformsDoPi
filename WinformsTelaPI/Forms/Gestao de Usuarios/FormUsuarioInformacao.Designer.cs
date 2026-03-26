@@ -70,6 +70,7 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.dgvUsuarios);
+            this.panel2.Controls.Add(this.panel3);
             this.panel2.Location = new System.Drawing.Point(12, 61);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
@@ -83,11 +84,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvUsuarios.Location = new System.Drawing.Point(0, 208);
+            this.dgvUsuarios.Location = new System.Drawing.Point(0, 197);
             this.dgvUsuarios.Margin = new System.Windows.Forms.Padding(4);
             this.dgvUsuarios.Name = "dgvUsuarios";
             this.dgvUsuarios.RowHeadersWidth = 51;
-            this.dgvUsuarios.Size = new System.Drawing.Size(964, 311);
+            this.dgvUsuarios.Size = new System.Drawing.Size(964, 322);
             this.dgvUsuarios.TabIndex = 1;
             // 
             // panel3
@@ -113,10 +114,10 @@
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.textBox1);
             this.panel3.Controls.Add(this.label3);
-            this.panel3.Location = new System.Drawing.Point(12, 61);
+            this.panel3.Location = new System.Drawing.Point(2, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(964, 206);
+            this.panel3.Size = new System.Drawing.Size(962, 198);
             this.panel3.TabIndex = 0;
             // 
             // textBox3
@@ -190,10 +191,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(44)))), ((int)(((byte)(191)))));
             this.panel5.Controls.Add(this.label2);
-            this.panel5.Location = new System.Drawing.Point(8, 61);
+            this.panel5.Location = new System.Drawing.Point(12, 58);
             this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(964, 50);
+            this.panel5.Size = new System.Drawing.Size(962, 50);
             this.panel5.TabIndex = 0;
             // 
             // label2
@@ -223,7 +224,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(174, 9);
+            this.label1.Location = new System.Drawing.Point(385, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(235, 32);
@@ -232,19 +233,17 @@
             // 
             // panel4
             // 
-            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.panel7);
             this.panel4.Controls.Add(this.panel5);
-            this.panel4.Controls.Add(this.panel3);
             this.panel4.Controls.Add(this.panel1);
             this.panel4.Controls.Add(this.panel2);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(988, 738);
+            this.panel4.Size = new System.Drawing.Size(988, 733);
             this.panel4.TabIndex = 0;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
@@ -255,10 +254,10 @@
             this.panel7.Controls.Add(this.btnApagar);
             this.panel7.Controls.Add(this.btnAtualizar);
             this.panel7.Controls.Add(this.btnCadastrar);
-            this.panel7.Location = new System.Drawing.Point(12, 587);
+            this.panel7.Location = new System.Drawing.Point(10, 588);
             this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(964, 95);
+            this.panel7.Size = new System.Drawing.Size(964, 122);
             this.panel7.TabIndex = 3;
             // 
             // label13
@@ -352,11 +351,11 @@
             this.btnLimparCampos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimparCampos.ForeColor = System.Drawing.Color.White;
             this.btnLimparCampos.Image = global::WinformsTelaPI.Properties.Resources.codigo_limpo;
-            this.btnLimparCampos.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnLimparCampos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLimparCampos.Location = new System.Drawing.Point(4, 1);
             this.btnLimparCampos.Margin = new System.Windows.Forms.Padding(4);
             this.btnLimparCampos.Name = "btnLimparCampos";
-            this.btnLimparCampos.Size = new System.Drawing.Size(311, 44);
+            this.btnLimparCampos.Size = new System.Drawing.Size(311, 53);
             this.btnLimparCampos.TabIndex = 22;
             this.btnLimparCampos.Text = "Limpar Campos";
             this.btnLimparCampos.UseVisualStyleBackColor = false;
@@ -374,7 +373,7 @@
             this.btnApagar.Location = new System.Drawing.Point(649, 1);
             this.btnApagar.Margin = new System.Windows.Forms.Padding(4);
             this.btnApagar.Name = "btnApagar";
-            this.btnApagar.Size = new System.Drawing.Size(311, 44);
+            this.btnApagar.Size = new System.Drawing.Size(311, 53);
             this.btnApagar.TabIndex = 21;
             this.btnApagar.Text = "Apagar";
             this.btnApagar.UseVisualStyleBackColor = false;
@@ -392,10 +391,9 @@
             this.btnAtualizar.Location = new System.Drawing.Point(327, 1);
             this.btnAtualizar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAtualizar.Name = "btnAtualizar";
-            this.btnAtualizar.Size = new System.Drawing.Size(311, 44);
+            this.btnAtualizar.Size = new System.Drawing.Size(311, 53);
             this.btnAtualizar.TabIndex = 20;
             this.btnAtualizar.Text = "Atualizar";
-            this.btnAtualizar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnAtualizar.UseVisualStyleBackColor = false;
             // 
             // btnCadastrar
@@ -408,13 +406,12 @@
             this.btnCadastrar.ForeColor = System.Drawing.Color.White;
             this.btnCadastrar.Image = global::WinformsTelaPI.Properties.Resources.adicionar_usuario;
             this.btnCadastrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCadastrar.Location = new System.Drawing.Point(4, 47);
+            this.btnCadastrar.Location = new System.Drawing.Point(4, 62);
             this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(956, 44);
+            this.btnCadastrar.Size = new System.Drawing.Size(956, 53);
             this.btnCadastrar.TabIndex = 18;
             this.btnCadastrar.Text = "                                                                   Salvar";
-            this.btnCadastrar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnCadastrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCadastrar.UseVisualStyleBackColor = false;
             // 
@@ -431,7 +428,7 @@
             this.btnFiltrar.Location = new System.Drawing.Point(508, 145);
             this.btnFiltrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnFiltrar.Name = "btnFiltrar";
-            this.btnFiltrar.Size = new System.Drawing.Size(295, 44);
+            this.btnFiltrar.Size = new System.Drawing.Size(439, 44);
             this.btnFiltrar.TabIndex = 15;
             this.btnFiltrar.Text = "FILTRAR";
             this.btnFiltrar.UseVisualStyleBackColor = false;
@@ -440,7 +437,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(988, 694);
+            this.ClientSize = new System.Drawing.Size(988, 733);
             this.Controls.Add(this.panel4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
