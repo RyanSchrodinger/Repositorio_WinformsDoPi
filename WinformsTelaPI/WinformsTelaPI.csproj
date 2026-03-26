@@ -58,6 +58,12 @@
     <Compile Include="Forms\Gestao de Usuarios\ADM\FormCadastrarAdm.Designer.cs">
       <DependentUpon>FormCadastrarAdm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Gestao de Usuarios\ADM\FormConsultarAdm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao de Usuarios\ADM\FormConsultarAdm.Designer.cs">
+      <DependentUpon>FormConsultarAdm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Gestao de Usuarios\FormGestaoDePessoas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Gestao de Usuarios\ADM\FormCadastrarAdm.resx">
       <DependentUpon>FormCadastrarAdm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao de Usuarios\ADM\FormConsultarAdm.resx">
+      <DependentUpon>FormConsultarAdm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Gestao de Usuarios\FormGestaoDePessoas.resx">
       <DependentUpon>FormGestaoDePessoas.cs</DependentUpon>
