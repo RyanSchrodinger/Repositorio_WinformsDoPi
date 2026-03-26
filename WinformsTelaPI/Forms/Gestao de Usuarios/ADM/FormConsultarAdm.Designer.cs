@@ -29,12 +29,9 @@
         private void InitializeComponent()
         {
             this.panel7 = new System.Windows.Forms.Panel();
-            this.btnEditar = new System.Windows.Forms.Button();
-            this.btnApagar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
             this.dgvUsuarios = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBox7 = new System.Windows.Forms.TextBox();
@@ -47,7 +44,6 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.btnFiltrar = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -59,10 +55,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnApagar = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnFiltrar = new System.Windows.Forms.Button();
             this.panel7.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -71,45 +69,13 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel7.Controls.Add(this.btnEditar);
             this.panel7.Controls.Add(this.btnApagar);
-            this.panel7.Location = new System.Drawing.Point(8, 558);
+            this.panel7.Controls.Add(this.btnEditar);
+            this.panel7.Location = new System.Drawing.Point(10, 614);
             this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(964, 51);
+            this.panel7.Size = new System.Drawing.Size(964, 85);
             this.panel7.TabIndex = 6;
-            // 
-            // btnEditar
-            // 
-            this.btnEditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(44)))), ((int)(((byte)(191)))));
-            this.btnEditar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnEditar.FlatAppearance.BorderSize = 2;
-            this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditar.ForeColor = System.Drawing.Color.White;
-            this.btnEditar.Location = new System.Drawing.Point(0, 1);
-            this.btnEditar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(619, 44);
-            this.btnEditar.TabIndex = 16;
-            this.btnEditar.Text = "Editar";
-            this.btnEditar.UseVisualStyleBackColor = false;
-            // 
-            // btnApagar
-            // 
-            this.btnApagar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(44)))), ((int)(((byte)(191)))));
-            this.btnApagar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnApagar.FlatAppearance.BorderSize = 2;
-            this.btnApagar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnApagar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnApagar.ForeColor = System.Drawing.Color.White;
-            this.btnApagar.Location = new System.Drawing.Point(621, 1);
-            this.btnApagar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnApagar.Name = "btnApagar";
-            this.btnApagar.Size = new System.Drawing.Size(343, 44);
-            this.btnApagar.TabIndex = 17;
-            this.btnApagar.Text = "Apagar";
-            this.btnApagar.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -135,24 +101,12 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.panel6);
+            this.panel2.Controls.Add(this.dgvUsuarios);
             this.panel2.Location = new System.Drawing.Point(8, 60);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(964, 495);
+            this.panel2.Size = new System.Drawing.Size(964, 546);
             this.panel2.TabIndex = 5;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.Crimson;
-            this.panel6.Controls.Add(this.dgvUsuarios);
-            this.panel6.Controls.Add(this.panel3);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(964, 495);
-            this.panel6.TabIndex = 2;
             // 
             // dgvUsuarios
             // 
@@ -161,11 +115,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvUsuarios.Location = new System.Drawing.Point(0, 212);
+            this.dgvUsuarios.Location = new System.Drawing.Point(1, 231);
             this.dgvUsuarios.Margin = new System.Windows.Forms.Padding(4);
             this.dgvUsuarios.Name = "dgvUsuarios";
             this.dgvUsuarios.RowHeadersWidth = 51;
-            this.dgvUsuarios.Size = new System.Drawing.Size(964, 283);
+            this.dgvUsuarios.Size = new System.Drawing.Size(961, 315);
             this.dgvUsuarios.TabIndex = 1;
             // 
             // panel3
@@ -174,6 +128,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.panel3.Controls.Add(this.btnFiltrar);
             this.panel3.Controls.Add(this.textBox7);
             this.panel3.Controls.Add(this.label11);
             this.panel3.Controls.Add(this.textBox8);
@@ -184,7 +139,6 @@
             this.panel3.Controls.Add(this.textBox6);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label10);
-            this.panel3.Controls.Add(this.btnFiltrar);
             this.panel3.Controls.Add(this.textBox5);
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.textBox4);
@@ -194,11 +148,10 @@
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.panel5);
-            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Location = new System.Drawing.Point(10, 60);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(964, 212);
+            this.panel3.Size = new System.Drawing.Size(964, 229);
             this.panel3.TabIndex = 0;
             // 
             // textBox7
@@ -293,22 +246,6 @@
             this.label10.TabIndex = 16;
             this.label10.Text = "ID Admin:";
             // 
-            // btnFiltrar
-            // 
-            this.btnFiltrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(44)))), ((int)(((byte)(191)))));
-            this.btnFiltrar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnFiltrar.FlatAppearance.BorderSize = 2;
-            this.btnFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFiltrar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFiltrar.ForeColor = System.Drawing.Color.White;
-            this.btnFiltrar.Location = new System.Drawing.Point(507, 143);
-            this.btnFiltrar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnFiltrar.Name = "btnFiltrar";
-            this.btnFiltrar.Size = new System.Drawing.Size(343, 44);
-            this.btnFiltrar.TabIndex = 15;
-            this.btnFiltrar.Text = "FILTRAR";
-            this.btnFiltrar.UseVisualStyleBackColor = false;
-            // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(285, 63);
@@ -398,7 +335,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(44)))), ((int)(((byte)(191)))));
             this.panel5.Controls.Add(this.label2);
-            this.panel5.Location = new System.Drawing.Point(1, 0);
+            this.panel5.Location = new System.Drawing.Point(9, 60);
             this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(964, 50);
@@ -416,12 +353,69 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "FILTRAR POR CAMPO ";
             // 
+            // btnApagar
+            // 
+            this.btnApagar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.btnApagar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnApagar.FlatAppearance.BorderSize = 2;
+            this.btnApagar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnApagar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApagar.ForeColor = System.Drawing.Color.White;
+            this.btnApagar.Image = global::WinformsTelaPI.Properties.Resources.apagar_simbolo;
+            this.btnApagar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnApagar.Location = new System.Drawing.Point(649, 4);
+            this.btnApagar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnApagar.Name = "btnApagar";
+            this.btnApagar.Size = new System.Drawing.Size(311, 53);
+            this.btnApagar.TabIndex = 22;
+            this.btnApagar.Text = "Apagar";
+            this.btnApagar.UseVisualStyleBackColor = false;
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnEditar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnEditar.FlatAppearance.BorderSize = 2;
+            this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditar.ForeColor = System.Drawing.Color.White;
+            this.btnEditar.Image = global::WinformsTelaPI.Properties.Resources.botao_editar;
+            this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnEditar.Location = new System.Drawing.Point(4, 4);
+            this.btnEditar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(619, 53);
+            this.btnEditar.TabIndex = 16;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = false;
+            // 
+            // btnFiltrar
+            // 
+            this.btnFiltrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(44)))), ((int)(((byte)(191)))));
+            this.btnFiltrar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnFiltrar.FlatAppearance.BorderSize = 2;
+            this.btnFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFiltrar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFiltrar.ForeColor = System.Drawing.Color.White;
+            this.btnFiltrar.Image = global::WinformsTelaPI.Properties.Resources.lupa1;
+            this.btnFiltrar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnFiltrar.Location = new System.Drawing.Point(511, 179);
+            this.btnFiltrar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnFiltrar.Name = "btnFiltrar";
+            this.btnFiltrar.Size = new System.Drawing.Size(439, 44);
+            this.btnFiltrar.TabIndex = 26;
+            this.btnFiltrar.Text = "FILTRAR";
+            this.btnFiltrar.UseVisualStyleBackColor = false;
+            // 
             // FormConsultarAdm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(988, 614);
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.ClientSize = new System.Drawing.Size(988, 733);
             this.Controls.Add(this.panel7);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -431,7 +425,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -445,14 +438,11 @@
 
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button btnEditar;
-        private System.Windows.Forms.Button btnApagar;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.DataGridView dgvUsuarios;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button btnFiltrar;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox4;
@@ -474,5 +464,7 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button btnApagar;
+        private System.Windows.Forms.Button btnFiltrar;
     }
 }

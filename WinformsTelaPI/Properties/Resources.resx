@@ -121,6 +121,9 @@
   <data name="lupa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lupa1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="apagar-simbolo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apagar-simbolo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,7 +187,7 @@
   <data name="Pessoas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pessoas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="apagar-simbolo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\apagar-simbolo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="botao-editar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao-editar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

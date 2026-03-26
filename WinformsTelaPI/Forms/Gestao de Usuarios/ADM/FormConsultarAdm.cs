@@ -16,9 +16,5 @@ namespace WinformsTelaPI.Forms.Gestao_de_Usuarios.ADM
         {
             InitializeComponent();
         }
-
-     
-
-        
     }
 }

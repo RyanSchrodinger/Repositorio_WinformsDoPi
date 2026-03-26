@@ -194,5 +194,8 @@
   <ItemGroup>
     <None Include="Resources\apagar-simbolo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-editar.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -31,6 +31,16 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.dgvUsuarios = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btnFiltrar = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -44,20 +54,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.btnLimparCampos = new System.Windows.Forms.Button();
             this.btnApagar = new System.Windows.Forms.Button();
             this.btnAtualizar = new System.Windows.Forms.Button();
             this.btnCadastrar = new System.Windows.Forms.Button();
-            this.btnFiltrar = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
             this.panel3.SuspendLayout();
@@ -84,11 +84,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvUsuarios.Location = new System.Drawing.Point(0, 197);
+            this.dgvUsuarios.Location = new System.Drawing.Point(0, 214);
             this.dgvUsuarios.Margin = new System.Windows.Forms.Padding(4);
             this.dgvUsuarios.Name = "dgvUsuarios";
             this.dgvUsuarios.RowHeadersWidth = 51;
-            this.dgvUsuarios.Size = new System.Drawing.Size(964, 322);
+            this.dgvUsuarios.Size = new System.Drawing.Size(962, 305);
             this.dgvUsuarios.TabIndex = 1;
             // 
             // panel3
@@ -114,11 +114,111 @@
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.textBox1);
             this.panel3.Controls.Add(this.label3);
-            this.panel3.Location = new System.Drawing.Point(2, 0);
+            this.panel3.Location = new System.Drawing.Point(-2, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(962, 198);
+            this.panel3.Size = new System.Drawing.Size(966, 216);
             this.panel3.TabIndex = 0;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(289, 63);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(80, 22);
+            this.textBox4.TabIndex = 34;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(244, 66);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(34, 16);
+            this.label5.TabIndex = 33;
+            this.label5.Text = "ATÉ";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(172, 63);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(63, 22);
+            this.textBox5.TabIndex = 32;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(132, 66);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(26, 16);
+            this.label8.TabIndex = 31;
+            this.label8.Text = "DE";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(289, 123);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(80, 22);
+            this.textBox7.TabIndex = 30;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(244, 126);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(34, 16);
+            this.label11.TabIndex = 29;
+            this.label11.Text = "ATÉ";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(172, 123);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(63, 22);
+            this.textBox8.TabIndex = 28;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(132, 126);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(26, 16);
+            this.label12.TabIndex = 27;
+            this.label12.Text = "DE";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(9, 125);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(108, 16);
+            this.label13.TabIndex = 26;
+            this.label13.Text = "Data de Criação:";
+            // 
+            // btnFiltrar
+            // 
+            this.btnFiltrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(44)))), ((int)(((byte)(191)))));
+            this.btnFiltrar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnFiltrar.FlatAppearance.BorderSize = 2;
+            this.btnFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFiltrar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFiltrar.ForeColor = System.Drawing.Color.White;
+            this.btnFiltrar.Image = global::WinformsTelaPI.Properties.Resources.lupa1;
+            this.btnFiltrar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnFiltrar.Location = new System.Drawing.Point(508, 162);
+            this.btnFiltrar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnFiltrar.Name = "btnFiltrar";
+            this.btnFiltrar.Size = new System.Drawing.Size(439, 44);
+            this.btnFiltrar.TabIndex = 15;
+            this.btnFiltrar.Text = "FILTRAR";
+            this.btnFiltrar.UseVisualStyleBackColor = false;
             // 
             // textBox3
             // 
@@ -191,10 +291,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(44)))), ((int)(((byte)(191)))));
             this.panel5.Controls.Add(this.label2);
-            this.panel5.Location = new System.Drawing.Point(12, 58);
+            this.panel5.Location = new System.Drawing.Point(12, 61);
             this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(962, 50);
+            this.panel5.Size = new System.Drawing.Size(964, 50);
             this.panel5.TabIndex = 0;
             // 
             // label2
@@ -223,7 +323,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label1.Location = new System.Drawing.Point(385, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -245,7 +345,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(988, 733);
             this.panel4.TabIndex = 0;
-            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // panel7
             // 
@@ -259,88 +358,6 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(964, 122);
             this.panel7.TabIndex = 3;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(9, 125);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(108, 16);
-            this.label13.TabIndex = 26;
-            this.label13.Text = "Data de Criação:";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(132, 126);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(26, 16);
-            this.label12.TabIndex = 27;
-            this.label12.Text = "DE";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(172, 123);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(63, 22);
-            this.textBox8.TabIndex = 28;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(244, 126);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(34, 16);
-            this.label11.TabIndex = 29;
-            this.label11.Text = "ATÉ";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(289, 123);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(80, 22);
-            this.textBox7.TabIndex = 30;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(289, 63);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(80, 22);
-            this.textBox4.TabIndex = 34;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(244, 66);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 16);
-            this.label5.TabIndex = 33;
-            this.label5.Text = "ATÉ";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(172, 63);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(63, 22);
-            this.textBox5.TabIndex = 32;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(132, 66);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(26, 16);
-            this.label8.TabIndex = 31;
-            this.label8.Text = "DE";
             // 
             // btnLimparCampos
             // 
@@ -414,24 +431,6 @@
             this.btnCadastrar.Text = "                                                                   Salvar";
             this.btnCadastrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCadastrar.UseVisualStyleBackColor = false;
-            // 
-            // btnFiltrar
-            // 
-            this.btnFiltrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(44)))), ((int)(((byte)(191)))));
-            this.btnFiltrar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnFiltrar.FlatAppearance.BorderSize = 2;
-            this.btnFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFiltrar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFiltrar.ForeColor = System.Drawing.Color.White;
-            this.btnFiltrar.Image = global::WinformsTelaPI.Properties.Resources.lupa1;
-            this.btnFiltrar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnFiltrar.Location = new System.Drawing.Point(508, 145);
-            this.btnFiltrar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnFiltrar.Name = "btnFiltrar";
-            this.btnFiltrar.Size = new System.Drawing.Size(439, 44);
-            this.btnFiltrar.TabIndex = 15;
-            this.btnFiltrar.Text = "FILTRAR";
-            this.btnFiltrar.UseVisualStyleBackColor = false;
             // 
             // FormUsuarioInformacao
             // 
