@@ -16,6 +16,8 @@ namespace WinformsTelaPI.Forms
         public FormGestaoDePessoas()
         {
             InitializeComponent();
+
+            
         }
 
         private void btnFechar_Click(object sender, EventArgs e)
@@ -85,14 +87,22 @@ namespace WinformsTelaPI.Forms
 
         public void CorBotao(Button botao)
         {
+            if (panel2.Height == 552)
+            {
+                panel2.AutoScroll = true;
+            }
+            else
+            {
+                panel2.AutoScroll = false;
+            }
 
-            btnAdm.BackColor = ColorTranslator.FromHtml("#2A1247");
+            btnAdm.BackColor = ColorTranslator.FromHtml("#3C096C");
             btnConsultar.BackColor = ColorTranslator.FromHtml("#2A123D");
             btnAdicionar.BackColor = ColorTranslator.FromHtml("#2A123D");
-            btnUsuarios.BackColor = ColorTranslator.FromHtml("#2A1247");
-            btnEmpresas.BackColor = ColorTranslator.FromHtml("#2A1247");
-            btnProfissional.BackColor = ColorTranslator.FromHtml("#2A1247");
-            btnClientes.BackColor = ColorTranslator.FromHtml("#2A1247");
+            btnUsuarios.BackColor = ColorTranslator.FromHtml("#3C096C");
+            btnEmpresas.BackColor = ColorTranslator.FromHtml("#3C096C");
+            btnProfissional.BackColor = ColorTranslator.FromHtml("#3C096C");
+            btnClientes.BackColor = ColorTranslator.FromHtml("#3C096C");
 
 
             botao.BackColor = ColorTranslator.FromHtml("#9D4EDD");
@@ -102,6 +112,7 @@ namespace WinformsTelaPI.Forms
         private void btnConsultar_Click(object sender, EventArgs e)
         {
             CorBotao(btnConsultar);
+            AbrirFormFilho(new FormConsultarAdm());
         }
 
         private void btnEmpresas_Click(object sender, EventArgs e)
@@ -117,6 +128,20 @@ namespace WinformsTelaPI.Forms
         private void btnClientes_Click(object sender, EventArgs e)
         {
             CorBotao(btnClientes);
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+            CorBotao(btnAdm);
+
+            btnAdm.BackColor = ColorTranslator.FromHtml("#3C096C");
+
+
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 

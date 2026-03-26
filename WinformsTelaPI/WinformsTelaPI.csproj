@@ -173,6 +173,26 @@
   <ItemGroup>
     <None Include="Resources\add.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\voltar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filtro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\codigo-limpo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atualizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adicionar-usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apagar-simbolo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

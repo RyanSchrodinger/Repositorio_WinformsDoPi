@@ -29,16 +29,25 @@
         private void InitializeComponent()
         {
             this.panel7 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnApagar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.dgvUsuarios = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnFiltrar = new System.Windows.Forms.Button();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.btnFiltrar = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -47,9 +56,6 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -65,45 +71,45 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel7.Controls.Add(this.button4);
-            this.panel7.Controls.Add(this.button2);
+            this.panel7.Controls.Add(this.btnEditar);
+            this.panel7.Controls.Add(this.btnApagar);
             this.panel7.Location = new System.Drawing.Point(8, 558);
             this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(964, 57);
+            this.panel7.Size = new System.Drawing.Size(964, 51);
             this.panel7.TabIndex = 6;
             // 
-            // button4
+            // btnEditar
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(44)))), ((int)(((byte)(191)))));
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button4.FlatAppearance.BorderSize = 2;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(8, 5);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(404, 44);
-            this.button4.TabIndex = 16;
-            this.button4.Text = "FILTRAR";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnEditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(44)))), ((int)(((byte)(191)))));
+            this.btnEditar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnEditar.FlatAppearance.BorderSize = 2;
+            this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditar.ForeColor = System.Drawing.Color.White;
+            this.btnEditar.Location = new System.Drawing.Point(0, 1);
+            this.btnEditar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(619, 44);
+            this.btnEditar.TabIndex = 16;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnApagar
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(44)))), ((int)(((byte)(191)))));
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(446, 5);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(343, 44);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "FILTRAR";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnApagar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(44)))), ((int)(((byte)(191)))));
+            this.btnApagar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnApagar.FlatAppearance.BorderSize = 2;
+            this.btnApagar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnApagar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApagar.ForeColor = System.Drawing.Color.White;
+            this.btnApagar.Location = new System.Drawing.Point(621, 1);
+            this.btnApagar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnApagar.Name = "btnApagar";
+            this.btnApagar.Size = new System.Drawing.Size(343, 44);
+            this.btnApagar.TabIndex = 17;
+            this.btnApagar.Text = "Apagar";
+            this.btnApagar.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -168,8 +174,17 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.panel3.Controls.Add(this.btnFiltrar);
+            this.panel3.Controls.Add(this.textBox7);
+            this.panel3.Controls.Add(this.label11);
+            this.panel3.Controls.Add(this.textBox8);
+            this.panel3.Controls.Add(this.label12);
+            this.panel3.Controls.Add(this.label13);
+            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.textBox6);
+            this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.label10);
+            this.panel3.Controls.Add(this.btnFiltrar);
             this.panel3.Controls.Add(this.textBox5);
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.textBox4);
@@ -178,9 +193,6 @@
             this.panel3.Controls.Add(this.textBox2);
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.textBox1);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.panel5);
             this.panel3.Location = new System.Drawing.Point(0, 0);
@@ -188,6 +200,98 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(964, 212);
             this.panel3.TabIndex = 0;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(285, 133);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(80, 22);
+            this.textBox7.TabIndex = 25;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(240, 136);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(34, 16);
+            this.label11.TabIndex = 24;
+            this.label11.Text = "ATÉ";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(168, 133);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(63, 22);
+            this.textBox8.TabIndex = 23;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(128, 136);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(26, 16);
+            this.label12.TabIndex = 22;
+            this.label12.Text = "DE";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(8, 135);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(108, 16);
+            this.label13.TabIndex = 21;
+            this.label13.Text = "Data de Criação:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(285, 98);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(80, 22);
+            this.textBox1.TabIndex = 20;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(240, 101);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(34, 16);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "ATÉ";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(168, 98);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(63, 22);
+            this.textBox6.TabIndex = 18;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(128, 101);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(26, 16);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "DE";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(8, 101);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(64, 16);
+            this.label10.TabIndex = 16;
+            this.label10.Text = "ID Admin:";
             // 
             // btnFiltrar
             // 
@@ -205,17 +309,9 @@
             this.btnFiltrar.Text = "FILTRAR";
             this.btnFiltrar.UseVisualStyleBackColor = false;
             // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(155, 139);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(233, 22);
-            this.textBox6.TabIndex = 14;
-            // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(308, 63);
+            this.textBox5.Location = new System.Drawing.Point(285, 63);
             this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(80, 22);
@@ -224,7 +320,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(263, 66);
+            this.label9.Location = new System.Drawing.Point(240, 66);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(34, 16);
@@ -233,7 +329,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(191, 63);
+            this.textBox4.Location = new System.Drawing.Point(168, 63);
             this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(63, 22);
@@ -242,7 +338,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(151, 66);
+            this.label8.Location = new System.Drawing.Point(128, 66);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(26, 16);
@@ -251,7 +347,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(507, 101);
+            this.textBox3.Location = new System.Drawing.Point(625, 101);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(233, 22);
@@ -259,7 +355,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(507, 63);
+            this.textBox2.Location = new System.Drawing.Point(625, 63);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(233, 22);
@@ -268,50 +364,22 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(443, 105);
+            this.label7.Location = new System.Drawing.Point(508, 104);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(49, 16);
+            this.label7.Size = new System.Drawing.Size(85, 16);
             this.label7.TabIndex = 7;
-            this.label7.Text = "EMAIL:";
+            this.label7.Text = "Observação:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(443, 66);
+            this.label6.Location = new System.Drawing.Point(508, 65);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 16);
+            this.label6.Size = new System.Drawing.Size(109, 16);
             this.label6.TabIndex = 6;
-            this.label6.Text = "NOME:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(8, 143);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(129, 16);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "DATA_CADASTRO:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(8, 105);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 16);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "SENHA_HASH:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(155, 101);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(233, 22);
-            this.textBox1.TabIndex = 3;
+            this.label6.Text = "Nível de Acesso:";
             // 
             // label3
             // 
@@ -319,9 +387,9 @@
             this.label3.Location = new System.Drawing.Point(8, 66);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 16);
+            this.label3.Size = new System.Drawing.Size(73, 16);
             this.label3.TabIndex = 2;
-            this.label3.Text = "ID USUARIO:";
+            this.label3.Text = "ID Usuário:";
             // 
             // panel5
             // 
@@ -376,8 +444,8 @@
         #endregion
 
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnApagar;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
@@ -385,7 +453,6 @@
         private System.Windows.Forms.DataGridView dgvUsuarios;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button btnFiltrar;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox4;
@@ -394,11 +461,18 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
     }
 }
