@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinformsTelaPI.Forms.Gestao_de_Usuarios;
 using WinformsTelaPI.Forms.Gestao_de_Usuarios.ADM;
 
 namespace WinformsTelaPI.Forms
@@ -120,11 +121,14 @@ namespace WinformsTelaPI.Forms
 
         private void btnEmpresas_Click(object sender, EventArgs e)
         {
+            AbrirFormFilho(new FormEmpresaInformacao());
             CorBotao(btnEmpresas);
+
         }
 
         private void btnProfissional_Click(object sender, EventArgs e)
         {
+            AbrirFormFilho(new FormProfissionalInformacao());
             CorBotao(btnProfissional);
         }
 

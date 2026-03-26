@@ -64,6 +64,12 @@
     <Compile Include="Forms\Gestao de Usuarios\ADM\FormConsultarAdm.Designer.cs">
       <DependentUpon>FormConsultarAdm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Gestao de Usuarios\FormEmpresaInformacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao de Usuarios\FormEmpresaInformacao.Designer.cs">
+      <DependentUpon>FormEmpresaInformacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Gestao de Usuarios\FormGestaoDePessoas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,12 @@
     </Compile>
     <Compile Include="Forms\FormMenu.Designer.cs">
       <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Gestao de Usuarios\FormProfissionalInformacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao de Usuarios\FormProfissionalInformacao.Designer.cs">
+      <DependentUpon>FormProfissionalInformacao.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Gestao de Usuarios\FormUsuarioInformacao.cs">
       <SubType>Form</SubType>
@@ -93,11 +105,17 @@
     <EmbeddedResource Include="Forms\Gestao de Usuarios\ADM\FormConsultarAdm.resx">
       <DependentUpon>FormConsultarAdm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao de Usuarios\FormEmpresaInformacao.resx">
+      <DependentUpon>FormEmpresaInformacao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Gestao de Usuarios\FormGestaoDePessoas.resx">
       <DependentUpon>FormGestaoDePessoas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao de Usuarios\FormProfissionalInformacao.resx">
+      <DependentUpon>FormProfissionalInformacao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Gestao de Usuarios\FormUsuarioInformacao.resx">
       <DependentUpon>FormUsuarioInformacao.cs</DependentUpon>

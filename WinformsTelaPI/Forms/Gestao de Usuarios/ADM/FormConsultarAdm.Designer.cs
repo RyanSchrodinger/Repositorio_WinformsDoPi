@@ -91,7 +91,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.Olive;
             this.label1.Location = new System.Drawing.Point(174, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -284,7 +284,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(625, 101);
+            this.textBox3.Location = new System.Drawing.Point(649, 101);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(233, 22);
@@ -292,7 +292,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(625, 63);
+            this.textBox2.Location = new System.Drawing.Point(651, 63);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(233, 22);
@@ -399,10 +399,10 @@
             this.btnFiltrar.ForeColor = System.Drawing.Color.White;
             this.btnFiltrar.Image = global::WinformsTelaPI.Properties.Resources.lupa1;
             this.btnFiltrar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnFiltrar.Location = new System.Drawing.Point(511, 179);
+            this.btnFiltrar.Location = new System.Drawing.Point(511, 170);
             this.btnFiltrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnFiltrar.Name = "btnFiltrar";
-            this.btnFiltrar.Size = new System.Drawing.Size(439, 44);
+            this.btnFiltrar.Size = new System.Drawing.Size(439, 53);
             this.btnFiltrar.TabIndex = 26;
             this.btnFiltrar.Text = "FILTRAR";
             this.btnFiltrar.UseVisualStyleBackColor = false;
