@@ -84,9 +84,10 @@ namespace WinformsTelaPI.Forms
             
         }
 
-
+        #region Função que dá uma interatividade para os botão de acessar as telas 
         public void CorBotao(Button botao)
         {
+            /*
             if (panel2.Height == 552)
             {
                 panel2.AutoScroll = true;
@@ -95,6 +96,7 @@ namespace WinformsTelaPI.Forms
             {
                 panel2.AutoScroll = false;
             }
+            */
 
             btnAdm.BackColor = ColorTranslator.FromHtml("#3C096C");
             btnConsultar.BackColor = ColorTranslator.FromHtml("#2A123D");
@@ -108,6 +110,7 @@ namespace WinformsTelaPI.Forms
             botao.BackColor = ColorTranslator.FromHtml("#9D4EDD");
 
         }
+        #endregion
 
         private void btnConsultar_Click(object sender, EventArgs e)
         {
@@ -138,7 +141,6 @@ namespace WinformsTelaPI.Forms
 
 
         }
-
         private void btnVoltar_Click(object sender, EventArgs e)
         {
             this.Close();
