@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinformsTelaPI.Forms.Gestao_de_Usuarios.ADM;
 
 namespace WinformsTelaPI.Forms
 {
@@ -40,6 +41,8 @@ namespace WinformsTelaPI.Forms
         private void btnAdm_Click(object sender, EventArgs e)
         {
             MostrarPanelAdm();
+            CorBotao(btnAdm);
+
         }
 
 
@@ -69,8 +72,52 @@ namespace WinformsTelaPI.Forms
         private void btnUsuarios_Click(object sender, EventArgs e)
         {
             AbrirFormFilho(new FormUsuarioInformacao());
+            CorBotao(btnUsuarios);
         }
 
+        private void btnAdicionar_Click(object sender, EventArgs e)
+        {
+            AbrirFormFilho(new FormCadastrarAdm());
+            CorBotao(btnAdicionar);
+            
+        }
+
+
+        public void CorBotao(Button botao)
+        {
+
+            btnAdm.BackColor = ColorTranslator.FromHtml("#2A1247");
+            btnConsultar.BackColor = ColorTranslator.FromHtml("#2A123D");
+            btnAdicionar.BackColor = ColorTranslator.FromHtml("#2A123D");
+            btnUsuarios.BackColor = ColorTranslator.FromHtml("#2A1247");
+            btnEmpresas.BackColor = ColorTranslator.FromHtml("#2A1247");
+            btnProfissional.BackColor = ColorTranslator.FromHtml("#2A1247");
+            btnClientes.BackColor = ColorTranslator.FromHtml("#2A1247");
+
+
+            botao.BackColor = ColorTranslator.FromHtml("#9D4EDD");
+
+        }
+
+        private void btnConsultar_Click(object sender, EventArgs e)
+        {
+            CorBotao(btnConsultar);
+        }
+
+        private void btnEmpresas_Click(object sender, EventArgs e)
+        {
+            CorBotao(btnEmpresas);
+        }
+
+        private void btnProfissional_Click(object sender, EventArgs e)
+        {
+            CorBotao(btnProfissional);
+        }
+
+        private void btnClientes_Click(object sender, EventArgs e)
+        {
+            CorBotao(btnClientes);
+        }
     }
 
 

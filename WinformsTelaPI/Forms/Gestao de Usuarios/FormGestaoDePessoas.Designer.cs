@@ -34,7 +34,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnProfissional = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnEmpresas = new System.Windows.Forms.Button();
             this.btnUsuarios = new System.Windows.Forms.Button();
             this.panelAdm = new System.Windows.Forms.Panel();
             this.btnAdicionar = new System.Windows.Forms.Button();
@@ -57,9 +57,9 @@
             this.panelPri.Controls.Add(this.panel2);
             this.panelPri.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelPri.Location = new System.Drawing.Point(0, 0);
-            this.panelPri.Margin = new System.Windows.Forms.Padding(2);
+            this.panelPri.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelPri.Name = "panelPri";
-            this.panelPri.Size = new System.Drawing.Size(960, 499);
+            this.panelPri.Size = new System.Drawing.Size(1280, 614);
             this.panelPri.TabIndex = 27;
             // 
             // panelFilho
@@ -67,9 +67,10 @@
             this.panelFilho.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelFilho.Location = new System.Drawing.Point(219, 0);
+            this.panelFilho.Location = new System.Drawing.Point(292, 0);
+            this.panelFilho.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelFilho.Name = "panelFilho";
-            this.panelFilho.Size = new System.Drawing.Size(741, 499);
+            this.panelFilho.Size = new System.Drawing.Size(988, 614);
             this.panelFilho.TabIndex = 31;
             // 
             // panel2
@@ -78,15 +79,16 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(66)))));
             this.panel2.Controls.Add(this.btnClientes);
             this.panel2.Controls.Add(this.btnProfissional);
-            this.panel2.Controls.Add(this.button3);
+            this.panel2.Controls.Add(this.btnEmpresas);
             this.panel2.Controls.Add(this.btnUsuarios);
             this.panel2.Controls.Add(this.panelAdm);
             this.panel2.Controls.Add(this.btnAdm);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(217, 499);
+            this.panel2.Size = new System.Drawing.Size(289, 614);
             this.panel2.TabIndex = 30;
             // 
             // btnClientes
@@ -100,12 +102,14 @@
             this.btnClientes.ForeColor = System.Drawing.Color.White;
             this.btnClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.Image")));
             this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClientes.Location = new System.Drawing.Point(0, 385);
+            this.btnClientes.Location = new System.Drawing.Point(0, 474);
+            this.btnClientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Size = new System.Drawing.Size(217, 38);
+            this.btnClientes.Size = new System.Drawing.Size(289, 47);
             this.btnClientes.TabIndex = 2;
             this.btnClientes.Text = "CLIENTES";
             this.btnClientes.UseVisualStyleBackColor = false;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
             // btnProfissional
             // 
@@ -118,30 +122,34 @@
             this.btnProfissional.ForeColor = System.Drawing.Color.White;
             this.btnProfissional.Image = ((System.Drawing.Image)(resources.GetObject("btnProfissional.Image")));
             this.btnProfissional.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProfissional.Location = new System.Drawing.Point(0, 347);
+            this.btnProfissional.Location = new System.Drawing.Point(0, 427);
+            this.btnProfissional.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnProfissional.Name = "btnProfissional";
-            this.btnProfissional.Size = new System.Drawing.Size(217, 38);
+            this.btnProfissional.Size = new System.Drawing.Size(289, 47);
             this.btnProfissional.TabIndex = 3;
             this.btnProfissional.Text = "PROFISSIONAL";
             this.btnProfissional.UseVisualStyleBackColor = false;
+            this.btnProfissional.Click += new System.EventHandler(this.btnProfissional_Click);
             // 
-            // button3
+            // btnEmpresas
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(18)))), ((int)(((byte)(71)))));
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(78)))), ((int)(((byte)(221)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 309);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(217, 38);
-            this.button3.TabIndex = 27;
-            this.button3.Text = "EMPRESAS";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnEmpresas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(18)))), ((int)(((byte)(71)))));
+            this.btnEmpresas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEmpresas.FlatAppearance.BorderSize = 0;
+            this.btnEmpresas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(78)))), ((int)(((byte)(221)))));
+            this.btnEmpresas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEmpresas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmpresas.ForeColor = System.Drawing.Color.White;
+            this.btnEmpresas.Image = ((System.Drawing.Image)(resources.GetObject("btnEmpresas.Image")));
+            this.btnEmpresas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEmpresas.Location = new System.Drawing.Point(0, 380);
+            this.btnEmpresas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEmpresas.Name = "btnEmpresas";
+            this.btnEmpresas.Size = new System.Drawing.Size(289, 47);
+            this.btnEmpresas.TabIndex = 27;
+            this.btnEmpresas.Text = "EMPRESAS";
+            this.btnEmpresas.UseVisualStyleBackColor = false;
+            this.btnEmpresas.Click += new System.EventHandler(this.btnEmpresas_Click);
             // 
             // btnUsuarios
             // 
@@ -154,9 +162,10 @@
             this.btnUsuarios.ForeColor = System.Drawing.Color.White;
             this.btnUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("btnUsuarios.Image")));
             this.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUsuarios.Location = new System.Drawing.Point(0, 271);
+            this.btnUsuarios.Location = new System.Drawing.Point(0, 333);
+            this.btnUsuarios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnUsuarios.Name = "btnUsuarios";
-            this.btnUsuarios.Size = new System.Drawing.Size(217, 38);
+            this.btnUsuarios.Size = new System.Drawing.Size(289, 47);
             this.btnUsuarios.TabIndex = 0;
             this.btnUsuarios.Text = "USUÁRIOS";
             this.btnUsuarios.UseVisualStyleBackColor = false;
@@ -168,10 +177,10 @@
             this.panelAdm.Controls.Add(this.btnAdicionar);
             this.panelAdm.Controls.Add(this.btnConsultar);
             this.panelAdm.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelAdm.Location = new System.Drawing.Point(0, 186);
-            this.panelAdm.Margin = new System.Windows.Forms.Padding(2);
+            this.panelAdm.Location = new System.Drawing.Point(0, 228);
+            this.panelAdm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelAdm.Name = "panelAdm";
-            this.panelAdm.Size = new System.Drawing.Size(217, 85);
+            this.panelAdm.Size = new System.Drawing.Size(289, 105);
             this.panelAdm.TabIndex = 26;
             this.panelAdm.Visible = false;
             // 
@@ -186,12 +195,14 @@
             this.btnAdicionar.ForeColor = System.Drawing.Color.White;
             this.btnAdicionar.Image = ((System.Drawing.Image)(resources.GetObject("btnAdicionar.Image")));
             this.btnAdicionar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdicionar.Location = new System.Drawing.Point(0, 41);
+            this.btnAdicionar.Location = new System.Drawing.Point(0, 50);
+            this.btnAdicionar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdicionar.Name = "btnAdicionar";
-            this.btnAdicionar.Size = new System.Drawing.Size(217, 44);
+            this.btnAdicionar.Size = new System.Drawing.Size(289, 54);
             this.btnAdicionar.TabIndex = 6;
             this.btnAdicionar.Text = "ADICIONAR";
             this.btnAdicionar.UseVisualStyleBackColor = false;
+            this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
             // 
             // btnConsultar
             // 
@@ -205,11 +216,13 @@
             this.btnConsultar.Image = ((System.Drawing.Image)(resources.GetObject("btnConsultar.Image")));
             this.btnConsultar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConsultar.Location = new System.Drawing.Point(0, 0);
+            this.btnConsultar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnConsultar.Name = "btnConsultar";
-            this.btnConsultar.Size = new System.Drawing.Size(217, 41);
+            this.btnConsultar.Size = new System.Drawing.Size(289, 50);
             this.btnConsultar.TabIndex = 6;
             this.btnConsultar.Text = "CONSULTAR";
             this.btnConsultar.UseVisualStyleBackColor = false;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // btnAdm
             // 
@@ -222,9 +235,10 @@
             this.btnAdm.ForeColor = System.Drawing.Color.White;
             this.btnAdm.Image = ((System.Drawing.Image)(resources.GetObject("btnAdm.Image")));
             this.btnAdm.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdm.Location = new System.Drawing.Point(0, 145);
+            this.btnAdm.Location = new System.Drawing.Point(0, 178);
+            this.btnAdm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdm.Name = "btnAdm";
-            this.btnAdm.Size = new System.Drawing.Size(217, 41);
+            this.btnAdm.Size = new System.Drawing.Size(289, 50);
             this.btnAdm.TabIndex = 6;
             this.btnAdm.Text = "ADMINISTRADORES   ";
             this.btnAdm.UseVisualStyleBackColor = false;
@@ -237,16 +251,18 @@
             this.panel3.Controls.Add(this.label2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(217, 145);
+            this.panel3.Size = new System.Drawing.Size(289, 178);
             this.panel3.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WinformsTelaPI.Properties.Resources.management;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 33);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 41);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(217, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(289, 123);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
@@ -256,20 +272,22 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(22, 9);
+            this.label2.Location = new System.Drawing.Point(29, 11);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(159, 21);
+            this.label2.Size = new System.Drawing.Size(199, 28);
             this.label2.TabIndex = 28;
             this.label2.Text = "Gestão de Usuários ";
             // 
             // FormGestaoDePessoas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(46)))));
-            this.ClientSize = new System.Drawing.Size(960, 499);
+            this.ClientSize = new System.Drawing.Size(1280, 614);
             this.Controls.Add(this.panelPri);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormGestaoDePessoas";
             this.Text = "CLIENTES";
             this.panelPri.ResumeLayout(false);
@@ -289,7 +307,7 @@
         private System.Windows.Forms.Button btnAdm;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnUsuarios;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnEmpresas;
         private System.Windows.Forms.Button btnProfissional;
         private System.Windows.Forms.Button btnClientes;
         private System.Windows.Forms.Panel panelAdm;
