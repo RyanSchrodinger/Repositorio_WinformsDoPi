@@ -106,6 +106,7 @@ namespace WinformsTelaPI.Forms
             btnEmpresas.BackColor = ColorTranslator.FromHtml("#3C096C");
             btnProfissional.BackColor = ColorTranslator.FromHtml("#3C096C");
             btnClientes.BackColor = ColorTranslator.FromHtml("#3C096C");
+            btnProfissionalCargo.BackColor = ColorTranslator.FromHtml("#3C096C");
 
 
             botao.BackColor = ColorTranslator.FromHtml("#9D4EDD");
@@ -134,6 +135,7 @@ namespace WinformsTelaPI.Forms
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
+            AbrirFormFilho(new FormClienteInformacao());
             CorBotao(btnClientes);
         }
 
@@ -148,6 +150,12 @@ namespace WinformsTelaPI.Forms
         private void btnVoltar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnProfissionalCargo_Click(object sender, EventArgs e)
+        {
+            CorBotao(btnProfissionalCargo);
+            AbrirFormFilho(new FormProfissionalCargoInformacao());
         }
     }
 

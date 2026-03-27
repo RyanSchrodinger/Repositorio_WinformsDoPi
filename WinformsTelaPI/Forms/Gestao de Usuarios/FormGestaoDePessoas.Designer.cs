@@ -36,13 +36,15 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panelAdm = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.btnVoltar = new System.Windows.Forms.Button();
+            this.btnProfissionalCargo = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnProfissional = new System.Windows.Forms.Button();
             this.btnEmpresas = new System.Windows.Forms.Button();
@@ -117,14 +119,14 @@
             this.panel2.Location = new System.Drawing.Point(28, 61);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(361, 701);
+            this.panel2.Size = new System.Drawing.Size(361, 733);
             this.panel2.TabIndex = 30;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // panel9
             // 
             this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel9.Location = new System.Drawing.Point(0, 694);
+            this.panel9.Location = new System.Drawing.Point(0, 726);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(359, 5);
             this.panel9.TabIndex = 0;
@@ -134,6 +136,8 @@
             this.panel1.AutoScroll = true;
             this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(18)))), ((int)(((byte)(72)))));
+            this.panel1.Controls.Add(this.btnProfissionalCargo);
+            this.panel1.Controls.Add(this.panel10);
             this.panel1.Controls.Add(this.btnClientes);
             this.panel1.Controls.Add(this.panel7);
             this.panel1.Controls.Add(this.btnProfissional);
@@ -149,16 +153,8 @@
             this.panel1.Location = new System.Drawing.Point(30, 4);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(291, 606);
+            this.panel1.Size = new System.Drawing.Size(291, 651);
             this.panel1.TabIndex = 31;
-            // 
-            // panel7
-            // 
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 510);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(291, 11);
-            this.panel7.TabIndex = 29;
             // 
             // panel6
             // 
@@ -205,6 +201,22 @@
             this.panel4.Size = new System.Drawing.Size(291, 21);
             this.panel4.TabIndex = 27;
             // 
+            // panel7
+            // 
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 510);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(291, 11);
+            this.panel7.TabIndex = 29;
+            // 
+            // panel10
+            // 
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel10.Location = new System.Drawing.Point(0, 578);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(291, 11);
+            this.panel10.TabIndex = 30;
+            // 
             // btnVoltar
             // 
             this.btnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(9)))), ((int)(((byte)(108)))));
@@ -216,7 +228,7 @@
             this.btnVoltar.ForeColor = System.Drawing.Color.White;
             this.btnVoltar.Image = global::WinformsTelaPI.Properties.Resources.voltar;
             this.btnVoltar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVoltar.Location = new System.Drawing.Point(0, 637);
+            this.btnVoltar.Location = new System.Drawing.Point(0, 669);
             this.btnVoltar.Margin = new System.Windows.Forms.Padding(4);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Padding = new System.Windows.Forms.Padding(10);
@@ -225,6 +237,27 @@
             this.btnVoltar.Text = "Voltar para o Menu";
             this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
+            // 
+            // btnProfissionalCargo
+            // 
+            this.btnProfissionalCargo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(9)))), ((int)(((byte)(108)))));
+            this.btnProfissionalCargo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProfissionalCargo.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnProfissionalCargo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(78)))), ((int)(((byte)(221)))));
+            this.btnProfissionalCargo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProfissionalCargo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProfissionalCargo.ForeColor = System.Drawing.Color.White;
+            this.btnProfissionalCargo.Image = global::WinformsTelaPI.Properties.Resources.trabalhador_carregando_caixas;
+            this.btnProfissionalCargo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProfissionalCargo.Location = new System.Drawing.Point(0, 589);
+            this.btnProfissionalCargo.Margin = new System.Windows.Forms.Padding(4);
+            this.btnProfissionalCargo.Name = "btnProfissionalCargo";
+            this.btnProfissionalCargo.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.btnProfissionalCargo.Size = new System.Drawing.Size(291, 57);
+            this.btnProfissionalCargo.TabIndex = 31;
+            this.btnProfissionalCargo.Text = "  PROFISSIONAL_CARGO";
+            this.btnProfissionalCargo.UseVisualStyleBackColor = false;
+            this.btnProfissionalCargo.Click += new System.EventHandler(this.btnProfissionalCargo_Click);
             // 
             // btnClientes
             // 
@@ -275,7 +308,7 @@
             this.btnEmpresas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEmpresas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmpresas.ForeColor = System.Drawing.Color.White;
-            this.btnEmpresas.Image = ((System.Drawing.Image)(resources.GetObject("btnEmpresas.Image")));
+            this.btnEmpresas.Image = global::WinformsTelaPI.Properties.Resources.empresa;
             this.btnEmpresas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEmpresas.Location = new System.Drawing.Point(0, 385);
             this.btnEmpresas.Margin = new System.Windows.Forms.Padding(4);
@@ -417,11 +450,13 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Button btnProfissionalCargo;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel7;
     }
 }

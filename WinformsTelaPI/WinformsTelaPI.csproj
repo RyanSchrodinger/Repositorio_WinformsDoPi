@@ -52,6 +52,12 @@
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormProfissionalCargoInformacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormProfissionalCargoInformacao.Designer.cs">
+      <DependentUpon>FormProfissionalCargoInformacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Gestao de Usuarios\ADM\FormCadastrarAdm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,12 @@
     </Compile>
     <Compile Include="Forms\Gestao de Usuarios\ADM\FormConsultarAdm.Designer.cs">
       <DependentUpon>FormConsultarAdm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Gestao de Usuarios\FormClienteInformacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao de Usuarios\FormClienteInformacao.Designer.cs">
+      <DependentUpon>FormClienteInformacao.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Gestao de Usuarios\FormEmpresaInformacao.cs">
       <SubType>Form</SubType>
@@ -99,11 +111,17 @@
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormProfissionalCargoInformacao.resx">
+      <DependentUpon>FormProfissionalCargoInformacao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Gestao de Usuarios\ADM\FormCadastrarAdm.resx">
       <DependentUpon>FormCadastrarAdm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Gestao de Usuarios\ADM\FormConsultarAdm.resx">
       <DependentUpon>FormConsultarAdm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao de Usuarios\FormClienteInformacao.resx">
+      <DependentUpon>FormClienteInformacao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Gestao de Usuarios\FormEmpresaInformacao.resx">
       <DependentUpon>FormEmpresaInformacao.cs</DependentUpon>
@@ -214,6 +232,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\botao-editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trabalhador-carregando-caixas.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
