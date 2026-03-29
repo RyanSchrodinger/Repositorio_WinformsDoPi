@@ -113,6 +113,16 @@ namespace WinformsTelaPI.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap chats {
+            get {
+                object obj = ResourceManager.GetObject("chats", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap client {
             get {
                 object obj = ResourceManager.GetObject("client", resourceCulture);
@@ -136,6 +146,16 @@ namespace WinformsTelaPI.Properties {
         internal static System.Drawing.Bitmap comunicacao {
             get {
                 object obj = ResourceManager.GetObject("comunicacao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap comunicacaoa {
+            get {
+                object obj = ResourceManager.GetObject("comunicacaoa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -246,6 +266,16 @@ namespace WinformsTelaPI.Properties {
         internal static System.Drawing.Bitmap maximize {
             get {
                 object obj = ResourceManager.GetObject("maximize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mensagem {
+            get {
+                object obj = ResourceManager.GetObject("mensagem", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

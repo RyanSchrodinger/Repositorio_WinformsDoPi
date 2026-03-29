@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Central de Comunicacao\FormCentralDeComunicacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Central de Comunicacao\FormCentralDeComunicacao.Designer.cs">
+      <DependentUpon>FormCentralDeComunicacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Gestao de Locacoes\FormGestaoDeLocacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao de Locacoes\FormGestaoDeLocacoes.Designer.cs">
+      <DependentUpon>FormGestaoDeLocacoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Gestao de Servicos\FormGestaoDeServicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao de Servicos\FormGestaoDeServicos.Designer.cs">
+      <DependentUpon>FormGestaoDeServicos.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Gestao de Usuarios\FormProfissionalCargoInformacao.cs">
       <SubType>Form</SubType>
@@ -106,16 +124,25 @@
     <Compile Include="Forms\Gestao de Usuarios\FormUsuarioInformacao.Designer.cs">
       <DependentUpon>FormUsuarioInformacao.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Gestão Financeira\FormGestaoFinanceira.cs">
+    <Compile Include="Forms\Gestao Financeira\FormGestaoFinanceira.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Gestão Financeira\FormGestaoFinanceira.Designer.cs">
+    <Compile Include="Forms\Gestao Financeira\FormGestaoFinanceira.Designer.cs">
       <DependentUpon>FormGestaoFinanceira.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Central de Comunicacao\FormCentralDeComunicacao.resx">
+      <DependentUpon>FormCentralDeComunicacao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao de Locacoes\FormGestaoDeLocacoes.resx">
+      <DependentUpon>FormGestaoDeLocacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao de Servicos\FormGestaoDeServicos.resx">
+      <DependentUpon>FormGestaoDeServicos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Gestao de Usuarios\FormProfissionalCargoInformacao.resx">
       <DependentUpon>FormProfissionalCargoInformacao.cs</DependentUpon>
@@ -144,7 +171,7 @@
     <EmbeddedResource Include="Forms\Gestao de Usuarios\FormUsuarioInformacao.resx">
       <DependentUpon>FormUsuarioInformacao.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Gestão Financeira\FormGestaoFinanceira.resx">
+    <EmbeddedResource Include="Forms\Gestao Financeira\FormGestaoFinanceira.resx">
       <DependentUpon>FormGestaoFinanceira.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -274,6 +301,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tipospagamento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comunicacaoa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chats.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mensagem.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

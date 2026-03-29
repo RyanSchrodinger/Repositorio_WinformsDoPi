@@ -130,6 +130,9 @@
   <data name="music-station-vetorizada 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\music-station-vetorizada 11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="locacao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\locacao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="empresa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\empresa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -154,23 +157,23 @@
   <data name="management" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\management.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="transacao" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\transacao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="risco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\risco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lupa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lupa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="codigo-limpo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\codigo-limpo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="comunicacaoa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comunicacaoa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="trabalhador-carregando-caixas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trabalhador-carregando-caixas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="financiamentoColaborativo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\financiamentoColaborativo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profissional" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profissional.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,8 +199,14 @@
   <data name="persOn (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\persOn (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="profissional" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\profissional.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tipospagamento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tipospagamento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transacao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transacao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chats.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pessoas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pessoas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,8 +214,8 @@
   <data name="pes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="locacao" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\locacao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="codigo-limpo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\codigo-limpo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="filtro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\filtro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,7 +229,7 @@
   <data name="apagar-simbolo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\apagar-simbolo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tipospagamento" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tipospagamento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mensagem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mensagem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -173,6 +173,7 @@
             this.btnCentralMensagem.TabIndex = 8;
             this.btnCentralMensagem.Text = "Central de Comunicação";
             this.btnCentralMensagem.UseVisualStyleBackColor = false;
+            this.btnCentralMensagem.Click += new System.EventHandler(this.btnCentralMensagem_Click);
             // 
             // btnGestaoLocacao
             // 
@@ -192,6 +193,7 @@
             this.btnGestaoLocacao.TabIndex = 7;
             this.btnGestaoLocacao.Text = "Gestão de Locações";
             this.btnGestaoLocacao.UseVisualStyleBackColor = false;
+            this.btnGestaoLocacao.Click += new System.EventHandler(this.btnGestaoLocacao_Click);
             // 
             // btnGestaoServicos
             // 
@@ -211,6 +213,7 @@
             this.btnGestaoServicos.TabIndex = 6;
             this.btnGestaoServicos.Text = "Gestão de Serviços";
             this.btnGestaoServicos.UseVisualStyleBackColor = false;
+            this.btnGestaoServicos.Click += new System.EventHandler(this.btnGestaoServicos_Click);
             // 
             // pictureBox1
             // 
