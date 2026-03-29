@@ -52,10 +52,10 @@
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormProfissionalCargoInformacao.cs">
+    <Compile Include="Forms\Gestao de Usuarios\FormProfissionalCargoInformacao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormProfissionalCargoInformacao.Designer.cs">
+    <Compile Include="Forms\Gestao de Usuarios\FormProfissionalCargoInformacao.Designer.cs">
       <DependentUpon>FormProfissionalCargoInformacao.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Gestao de Usuarios\ADM\FormCadastrarAdm.cs">
@@ -111,7 +111,7 @@
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormProfissionalCargoInformacao.resx">
+    <EmbeddedResource Include="Forms\Gestao de Usuarios\FormProfissionalCargoInformacao.resx">
       <DependentUpon>FormProfissionalCargoInformacao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Gestao de Usuarios\ADM\FormCadastrarAdm.resx">
@@ -235,6 +235,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\trabalhador-carregando-caixas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\financiamentoColaborativo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\services.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\locacao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comunicacao.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
