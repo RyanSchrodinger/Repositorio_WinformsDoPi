@@ -106,6 +106,12 @@
     <Compile Include="Forms\Gestao de Usuarios\FormUsuarioInformacao.Designer.cs">
       <DependentUpon>FormUsuarioInformacao.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Gestão Financeira\FormGestaoFinanceira.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestão Financeira\FormGestaoFinanceira.Designer.cs">
+      <DependentUpon>FormGestaoFinanceira.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\Form1.resx">
@@ -137,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Gestao de Usuarios\FormUsuarioInformacao.resx">
       <DependentUpon>FormUsuarioInformacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestão Financeira\FormGestaoFinanceira.resx">
+      <DependentUpon>FormGestaoFinanceira.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -250,6 +259,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\comunicacao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\risco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gestaoFinanceira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pagamentsso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transacao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tipospagamento.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

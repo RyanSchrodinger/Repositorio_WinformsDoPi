@@ -183,6 +183,16 @@ namespace WinformsTelaPI.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gestaoFinanceira {
+            get {
+                object obj = ResourceManager.GetObject("gestaoFinanceira", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap locacao {
             get {
                 object obj = ResourceManager.GetObject("locacao", resourceCulture);
@@ -263,6 +273,16 @@ namespace WinformsTelaPI.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pagamentsso {
+            get {
+                object obj = ResourceManager.GetObject("pagamentsso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap person {
             get {
                 object obj = ResourceManager.GetObject("person", resourceCulture);
@@ -313,6 +333,16 @@ namespace WinformsTelaPI.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap risco {
+            get {
+                object obj = ResourceManager.GetObject("risco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap services {
             get {
                 object obj = ResourceManager.GetObject("services", resourceCulture);
@@ -323,9 +353,29 @@ namespace WinformsTelaPI.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap tipospagamento {
+            get {
+                object obj = ResourceManager.GetObject("tipospagamento", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap trabalhador_carregando_caixas {
             get {
                 object obj = ResourceManager.GetObject("trabalhador-carregando-caixas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap transacao {
+            get {
+                object obj = ResourceManager.GetObject("transacao", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -153,6 +153,7 @@
             this.btnGestaoFinanceira.TabIndex = 19;
             this.btnGestaoFinanceira.Text = "Gestão Financeira\r\n";
             this.btnGestaoFinanceira.UseVisualStyleBackColor = false;
+            this.btnGestaoFinanceira.Click += new System.EventHandler(this.btnGestaoFinanceira_Click);
             // 
             // btnCentralMensagem
             // 

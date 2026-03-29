@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinformsTelaPI.Forms.Gestão_Financeira;
 
 namespace WinformsTelaPI.Forms
 {
@@ -40,6 +41,12 @@ namespace WinformsTelaPI.Forms
         private void btnFechar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnGestaoFinanceira_Click(object sender, EventArgs e)
+        {
+            var telaFinanceira = new FormGestaoFinanceira();
+            telaFinanceira.ShowDialog();
         }
     }
 }
