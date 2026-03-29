@@ -213,6 +213,16 @@ namespace WinformsTelaPI.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gestaoServicos {
+            get {
+                object obj = ResourceManager.GetObject("gestaoServicos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap locacao {
             get {
                 object obj = ResourceManager.GetObject("locacao", resourceCulture);

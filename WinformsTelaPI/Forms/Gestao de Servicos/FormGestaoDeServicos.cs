@@ -16,5 +16,44 @@ namespace WinformsTelaPI.Forms.Gestao_de_Servicos
         {
             InitializeComponent();
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        #region Função que dá uma interatividade para os botão de acessar as telas 
+        public void CorBotao(Button botao)
+        {
+
+
+            btnServicos.BackColor = ColorTranslator.FromHtml("#3C096C");
+            btnServicoPedido.BackColor = ColorTranslator.FromHtml("#3C096C");
+            btnAvaliacoes.BackColor = ColorTranslator.FromHtml("#3C096C");
+            btnPedido.BackColor = ColorTranslator.FromHtml("#3C096C");
+            botao.BackColor = ColorTranslator.FromHtml("#9D4EDD");
+
+        }
+        #endregion
+
+        private void btnServicos_Click(object sender, EventArgs e)
+        {
+            CorBotao(btnServicos);
+        }
+
+        private void btnServicoPedido_Click(object sender, EventArgs e)
+        {
+            CorBotao(btnServicoPedido);
+        }
+
+        private void btnPedido_Click(object sender, EventArgs e)
+        {
+            CorBotao(btnPedido);
+        }
+
+        private void btnAvaliacoes_Click(object sender, EventArgs e)
+        {
+            CorBotao(btnAvaliacoes);
+        }
     }
 }
