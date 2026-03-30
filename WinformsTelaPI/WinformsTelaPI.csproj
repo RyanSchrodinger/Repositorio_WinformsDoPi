@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Central de Comunicacao\Controle\FormChatsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Central de Comunicacao\Controle\FormChatsView.Designer.cs">
+      <DependentUpon>FormChatsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Central de Comunicacao\Controle\FormMensagemView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Central de Comunicacao\Controle\FormMensagemView.Designer.cs">
+      <DependentUpon>FormMensagemView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Central de Comunicacao\FormCentralDeComunicacao.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +162,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Central de Comunicacao\Controle\FormChatsView.resx">
+      <DependentUpon>FormChatsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Central de Comunicacao\Controle\FormMensagemView.resx">
+      <DependentUpon>FormMensagemView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Central de Comunicacao\FormCentralDeComunicacao.resx">
       <DependentUpon>FormCentralDeComunicacao.cs</DependentUpon>
     </EmbeddedResource>
