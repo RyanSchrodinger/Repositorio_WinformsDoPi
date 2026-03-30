@@ -31,7 +31,7 @@ namespace WinformsTelaPI
             if (txtLogin.Text == "Digite seu login...")
             {
                 txtLogin.Text = "";
-                txtLogin.ForeColor = Color.White;
+                txtLogin.ForeColor = Color.Black;
             }
         }
 
@@ -49,7 +49,7 @@ namespace WinformsTelaPI
             if (txtSenha.Text == "Digite sua senha...")
             {
                 txtSenha.Text = "";
-                txtSenha.ForeColor = Color.White;
+                txtSenha.ForeColor = Color.Black;
             }
         }
 

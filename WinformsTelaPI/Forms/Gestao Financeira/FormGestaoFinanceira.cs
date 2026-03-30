@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinformsTelaPI.Forms.Gestao_Financeira.Controle;
 
 namespace WinformsTelaPI.Forms.Gestão_Financeira
 {
     public partial class FormGestaoFinanceira : Form
     {
+        private Form formAtivo = null;
         public FormGestaoFinanceira()
         {
             InitializeComponent();
@@ -21,6 +23,23 @@ namespace WinformsTelaPI.Forms.Gestão_Financeira
         {
             this.Close();
             
+        }
+
+        
+        private void AbrirFormFilho(Form formFilho)
+        {
+            if (formAtivo != null)
+            {
+                formAtivo.Close();
+            }
+
+            formAtivo = formFilho;
+            formFilho.TopLevel = false;
+            formFilho.Dock = DockStyle.Fill;
+            panelFilho.Controls.Add(formFilho);
+            panelFilho.Tag = formFilho;
+            formFilho.Show();
+
         }
 
 
@@ -39,16 +58,19 @@ namespace WinformsTelaPI.Forms.Gestão_Financeira
 
         private void btnPagamentos_Click(object sender, EventArgs e)
         {
+            AbrirFormFilho(new FormPagamentosView());
             CorBotao(btnPagamentos);
         }
 
         private void btnTransacao_Click(object sender, EventArgs e)
         {
+            AbrirFormFilho(new FormTransasaoView());
             CorBotao(btnTransacao);
         }
 
         private void btnFormasDePagamento_Click(object sender, EventArgs e)
         {
+            AbrirFormFilho(new FormFormasPagamentoView());
             CorBotao(btnFormasDePagamento);
         }
     }

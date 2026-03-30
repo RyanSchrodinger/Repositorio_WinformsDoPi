@@ -124,6 +124,24 @@
     <Compile Include="Forms\Gestao de Usuarios\FormUsuarioInformacao.Designer.cs">
       <DependentUpon>FormUsuarioInformacao.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Gestao Financeira\Controle\FormFormasPagamentoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao Financeira\Controle\FormFormasPagamentoView.Designer.cs">
+      <DependentUpon>FormFormasPagamentoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Gestao Financeira\Controle\FormPagamentosView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao Financeira\Controle\FormPagamentosView.Designer.cs">
+      <DependentUpon>FormPagamentosView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Gestao Financeira\Controle\FormTransasaoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao Financeira\Controle\FormTransasaoView.Designer.cs">
+      <DependentUpon>FormTransasaoView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Gestao Financeira\FormGestaoFinanceira.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +188,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Gestao de Usuarios\FormUsuarioInformacao.resx">
       <DependentUpon>FormUsuarioInformacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao Financeira\Controle\FormFormasPagamentoView.resx">
+      <DependentUpon>FormFormasPagamentoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao Financeira\Controle\FormPagamentosView.resx">
+      <DependentUpon>FormPagamentosView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao Financeira\Controle\FormTransasaoView.resx">
+      <DependentUpon>FormTransasaoView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Gestao Financeira\FormGestaoFinanceira.resx">
       <DependentUpon>FormGestaoFinanceira.cs</DependentUpon>
