@@ -31,17 +31,17 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnVoltar = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnFormasDePagamento = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.btnTransacao = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.btnPagamentos = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelFilho = new System.Windows.Forms.Panel();
+            this.btnVoltar = new System.Windows.Forms.Button();
+            this.btnInstrumentos = new System.Windows.Forms.Button();
+            this.btnLocacoesItem = new System.Windows.Forms.Button();
+            this.btnLocacoes = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -85,6 +85,67 @@
             this.panel2.Size = new System.Drawing.Size(361, 733);
             this.panel2.TabIndex = 35;
             // 
+            // panel9
+            // 
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel9.Location = new System.Drawing.Point(0, 726);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(359, 5);
+            this.panel9.TabIndex = 0;
+            // 
+            // panel1
+            // 
+            this.panel1.AutoScroll = true;
+            this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(18)))), ((int)(((byte)(72)))));
+            this.panel1.Controls.Add(this.btnInstrumentos);
+            this.panel1.Controls.Add(this.panel6);
+            this.panel1.Controls.Add(this.btnLocacoesItem);
+            this.panel1.Controls.Add(this.panel8);
+            this.panel1.Controls.Add(this.btnLocacoes);
+            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Location = new System.Drawing.Point(30, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(291, 651);
+            this.panel1.TabIndex = 31;
+            // 
+            // panel6
+            // 
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Location = new System.Drawing.Point(0, 269);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(291, 11);
+            this.panel6.TabIndex = 29;
+            // 
+            // panel8
+            // 
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel8.Location = new System.Drawing.Point(0, 201);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(291, 11);
+            this.panel8.TabIndex = 29;
+            // 
+            // panel4
+            // 
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(0, 123);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(291, 21);
+            this.panel4.TabIndex = 27;
+            // 
+            // panelFilho
+            // 
+            this.panelFilho.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelFilho.Location = new System.Drawing.Point(415, 61);
+            this.panelFilho.Margin = new System.Windows.Forms.Padding(4);
+            this.panelFilho.Name = "panelFilho";
+            this.panelFilho.Size = new System.Drawing.Size(988, 733);
+            this.panelFilho.TabIndex = 37;
+            // 
             // btnVoltar
             // 
             this.btnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(9)))), ((int)(((byte)(108)))));
@@ -104,122 +165,76 @@
             this.btnVoltar.TabIndex = 32;
             this.btnVoltar.Text = "Voltar para o Menu";
             this.btnVoltar.UseVisualStyleBackColor = false;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
-            // panel9
+            // btnInstrumentos
             // 
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel9.Location = new System.Drawing.Point(0, 726);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(359, 5);
-            this.panel9.TabIndex = 0;
+            this.btnInstrumentos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(9)))), ((int)(((byte)(108)))));
+            this.btnInstrumentos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnInstrumentos.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnInstrumentos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(78)))), ((int)(((byte)(221)))));
+            this.btnInstrumentos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInstrumentos.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInstrumentos.ForeColor = System.Drawing.Color.White;
+            this.btnInstrumentos.Image = global::WinformsTelaPI.Properties.Resources.instrumentos;
+            this.btnInstrumentos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInstrumentos.Location = new System.Drawing.Point(0, 280);
+            this.btnInstrumentos.Margin = new System.Windows.Forms.Padding(4);
+            this.btnInstrumentos.Name = "btnInstrumentos";
+            this.btnInstrumentos.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
+            this.btnInstrumentos.Size = new System.Drawing.Size(291, 57);
+            this.btnInstrumentos.TabIndex = 3;
+            this.btnInstrumentos.Text = "INSTRUMENTOS";
+            this.btnInstrumentos.UseVisualStyleBackColor = false;
+            this.btnInstrumentos.Click += new System.EventHandler(this.btnInstrumentos_Click);
             // 
-            // panel1
+            // btnLocacoesItem
             // 
-            this.panel1.AutoScroll = true;
-            this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(18)))), ((int)(((byte)(72)))));
-            this.panel1.Controls.Add(this.btnFormasDePagamento);
-            this.panel1.Controls.Add(this.panel6);
-            this.panel1.Controls.Add(this.btnTransacao);
-            this.panel1.Controls.Add(this.panel8);
-            this.panel1.Controls.Add(this.btnPagamentos);
-            this.panel1.Controls.Add(this.panel4);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(30, 4);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(291, 651);
-            this.panel1.TabIndex = 31;
+            this.btnLocacoesItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(9)))), ((int)(((byte)(108)))));
+            this.btnLocacoesItem.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnLocacoesItem.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnLocacoesItem.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(78)))), ((int)(((byte)(221)))));
+            this.btnLocacoesItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLocacoesItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLocacoesItem.ForeColor = System.Drawing.Color.White;
+            this.btnLocacoesItem.Image = global::WinformsTelaPI.Properties.Resources.produtos;
+            this.btnLocacoesItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLocacoesItem.Location = new System.Drawing.Point(0, 212);
+            this.btnLocacoesItem.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLocacoesItem.Name = "btnLocacoesItem";
+            this.btnLocacoesItem.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
+            this.btnLocacoesItem.Size = new System.Drawing.Size(291, 57);
+            this.btnLocacoesItem.TabIndex = 27;
+            this.btnLocacoesItem.Text = "LOCAÇÕES_ITENS";
+            this.btnLocacoesItem.UseVisualStyleBackColor = false;
+            this.btnLocacoesItem.Click += new System.EventHandler(this.btnLocacoesItem_Click);
             // 
-            // btnFormasDePagamento
+            // btnLocacoes
             // 
-            this.btnFormasDePagamento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(9)))), ((int)(((byte)(108)))));
-            this.btnFormasDePagamento.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnFormasDePagamento.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnFormasDePagamento.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(78)))), ((int)(((byte)(221)))));
-            this.btnFormasDePagamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFormasDePagamento.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFormasDePagamento.ForeColor = System.Drawing.Color.White;
-            this.btnFormasDePagamento.Image = global::WinformsTelaPI.Properties.Resources.tipospagamento;
-            this.btnFormasDePagamento.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFormasDePagamento.Location = new System.Drawing.Point(0, 280);
-            this.btnFormasDePagamento.Margin = new System.Windows.Forms.Padding(4);
-            this.btnFormasDePagamento.Name = "btnFormasDePagamento";
-            this.btnFormasDePagamento.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.btnFormasDePagamento.Size = new System.Drawing.Size(291, 57);
-            this.btnFormasDePagamento.TabIndex = 3;
-            this.btnFormasDePagamento.Text = "FORMA_PAGAMENTO";
-            this.btnFormasDePagamento.UseVisualStyleBackColor = false;
-            // 
-            // panel6
-            // 
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 269);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(291, 11);
-            this.panel6.TabIndex = 29;
-            // 
-            // btnTransacao
-            // 
-            this.btnTransacao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(9)))), ((int)(((byte)(108)))));
-            this.btnTransacao.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnTransacao.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnTransacao.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(78)))), ((int)(((byte)(221)))));
-            this.btnTransacao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTransacao.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTransacao.ForeColor = System.Drawing.Color.White;
-            this.btnTransacao.Image = global::WinformsTelaPI.Properties.Resources.transacao;
-            this.btnTransacao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTransacao.Location = new System.Drawing.Point(0, 212);
-            this.btnTransacao.Margin = new System.Windows.Forms.Padding(4);
-            this.btnTransacao.Name = "btnTransacao";
-            this.btnTransacao.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.btnTransacao.Size = new System.Drawing.Size(291, 57);
-            this.btnTransacao.TabIndex = 27;
-            this.btnTransacao.Text = "TRANSAÇÕES";
-            this.btnTransacao.UseVisualStyleBackColor = false;
-            // 
-            // panel8
-            // 
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(0, 201);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(291, 11);
-            this.panel8.TabIndex = 29;
-            // 
-            // btnPagamentos
-            // 
-            this.btnPagamentos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(9)))), ((int)(((byte)(108)))));
-            this.btnPagamentos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPagamentos.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnPagamentos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(78)))), ((int)(((byte)(221)))));
-            this.btnPagamentos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPagamentos.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPagamentos.ForeColor = System.Drawing.Color.White;
-            this.btnPagamentos.Image = global::WinformsTelaPI.Properties.Resources.pagamentsso;
-            this.btnPagamentos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPagamentos.Location = new System.Drawing.Point(0, 144);
-            this.btnPagamentos.Margin = new System.Windows.Forms.Padding(4);
-            this.btnPagamentos.Name = "btnPagamentos";
-            this.btnPagamentos.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.btnPagamentos.Size = new System.Drawing.Size(291, 57);
-            this.btnPagamentos.TabIndex = 0;
-            this.btnPagamentos.Text = "PAGAMENTOS";
-            this.btnPagamentos.UseVisualStyleBackColor = false;
-            // 
-            // panel4
-            // 
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 123);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(291, 21);
-            this.panel4.TabIndex = 27;
+            this.btnLocacoes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(9)))), ((int)(((byte)(108)))));
+            this.btnLocacoes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnLocacoes.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnLocacoes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(78)))), ((int)(((byte)(221)))));
+            this.btnLocacoes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLocacoes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLocacoes.ForeColor = System.Drawing.Color.White;
+            this.btnLocacoes.Image = global::WinformsTelaPI.Properties.Resources.locacao__1_;
+            this.btnLocacoes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLocacoes.Location = new System.Drawing.Point(0, 144);
+            this.btnLocacoes.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLocacoes.Name = "btnLocacoes";
+            this.btnLocacoes.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
+            this.btnLocacoes.Size = new System.Drawing.Size(291, 57);
+            this.btnLocacoes.TabIndex = 0;
+            this.btnLocacoes.Text = "LOCAÇÕES";
+            this.btnLocacoes.UseVisualStyleBackColor = false;
+            this.btnLocacoes.Click += new System.EventHandler(this.btnLocacoes_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(18)))), ((int)(((byte)(72)))));
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = global::WinformsTelaPI.Properties.Resources.gestaoFinanceira;
+            this.pictureBox1.Image = global::WinformsTelaPI.Properties.Resources.senhorio;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
@@ -227,17 +242,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
-            // 
-            // panelFilho
-            // 
-            this.panelFilho.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelFilho.Location = new System.Drawing.Point(415, 61);
-            this.panelFilho.Margin = new System.Windows.Forms.Padding(4);
-            this.panelFilho.Name = "panelFilho";
-            this.panelFilho.Size = new System.Drawing.Size(988, 733);
-            this.panelFilho.TabIndex = 37;
             // 
             // FormGestaoDeLocacoes
             // 
@@ -267,11 +271,11 @@
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnFormasDePagamento;
+        private System.Windows.Forms.Button btnInstrumentos;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Button btnTransacao;
+        private System.Windows.Forms.Button btnLocacoesItem;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Button btnPagamentos;
+        private System.Windows.Forms.Button btnLocacoes;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panelFilho;

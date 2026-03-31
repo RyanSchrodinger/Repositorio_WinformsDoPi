@@ -223,9 +223,29 @@ namespace WinformsTelaPI.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap instrumentos {
+            get {
+                object obj = ResourceManager.GetObject("instrumentos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap locacao {
             get {
                 object obj = ResourceManager.GetObject("locacao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap locacao__1_ {
+            get {
+                object obj = ResourceManager.GetObject("locacao (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -363,6 +383,16 @@ namespace WinformsTelaPI.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap produtos {
+            get {
+                object obj = ResourceManager.GetObject("produtos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap profissional {
             get {
                 object obj = ResourceManager.GetObject("profissional", resourceCulture);
@@ -376,6 +406,16 @@ namespace WinformsTelaPI.Properties {
         internal static System.Drawing.Bitmap risco {
             get {
                 object obj = ResourceManager.GetObject("risco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap senhorio {
+            get {
+                object obj = ResourceManager.GetObject("senhorio", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

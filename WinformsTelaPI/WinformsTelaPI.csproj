@@ -70,6 +70,24 @@
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Gestao de Locacoes\Controle\FormInstrumentosView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao de Locacoes\Controle\FormInstrumentosView.Designer.cs">
+      <DependentUpon>FormInstrumentosView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Gestao de Locacoes\Controle\FormLocacaoItensView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao de Locacoes\Controle\FormLocacaoItensView.Designer.cs">
+      <DependentUpon>FormLocacaoItensView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Gestao de Locacoes\Controle\FormLocacaoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao de Locacoes\Controle\FormLocacaoView.Designer.cs">
+      <DependentUpon>FormLocacaoView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Gestao de Locacoes\FormGestaoDeLocacoes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,6 +215,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao de Locacoes\Controle\FormInstrumentosView.resx">
+      <DependentUpon>FormInstrumentosView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao de Locacoes\Controle\FormLocacaoItensView.resx">
+      <DependentUpon>FormLocacaoItensView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao de Locacoes\Controle\FormLocacaoView.resx">
+      <DependentUpon>FormLocacaoView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Gestao de Locacoes\FormGestaoDeLocacoes.resx">
       <DependentUpon>FormGestaoDeLocacoes.cs</DependentUpon>
@@ -394,6 +421,19 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\gestaoServicos.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\senhorio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\locacao %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\produtos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instrumentos.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
