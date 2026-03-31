@@ -76,6 +76,30 @@
     <Compile Include="Forms\Gestao de Locacoes\FormGestaoDeLocacoes.Designer.cs">
       <DependentUpon>FormGestaoDeLocacoes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Gestao de Servicos\Controle\FormAvaliacoesView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao de Servicos\Controle\FormAvaliacoesView.Designer.cs">
+      <DependentUpon>FormAvaliacoesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Gestao de Servicos\Controle\FormPedidosView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao de Servicos\Controle\FormPedidosView.Designer.cs">
+      <DependentUpon>FormPedidosView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Gestao de Servicos\Controle\FormServicoPedidosView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao de Servicos\Controle\FormServicoPedidosView.Designer.cs">
+      <DependentUpon>FormServicoPedidosView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Gestao de Servicos\Controle\FormServicoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Gestao de Servicos\Controle\FormServicoView.Designer.cs">
+      <DependentUpon>FormServicoView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Gestao de Servicos\FormGestaoDeServicos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -176,6 +200,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Gestao de Locacoes\FormGestaoDeLocacoes.resx">
       <DependentUpon>FormGestaoDeLocacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao de Servicos\Controle\FormAvaliacoesView.resx">
+      <DependentUpon>FormAvaliacoesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao de Servicos\Controle\FormPedidosView.resx">
+      <DependentUpon>FormPedidosView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao de Servicos\Controle\FormServicoPedidosView.resx">
+      <DependentUpon>FormServicoPedidosView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Gestao de Servicos\Controle\FormServicoView.resx">
+      <DependentUpon>FormServicoView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Gestao de Servicos\FormGestaoDeServicos.resx">
       <DependentUpon>FormGestaoDeServicos.cs</DependentUpon>
